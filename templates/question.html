@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block title %}{{question}} - Dizzle{% endblock %} {% block content %}
+<h1>Q{{number}} - Dizzle</h1>
+<div class='card'>
+<h2>{{question}}</h2>
+<form method='POST' action='/result'>
+	<label for='user_answer'>Answer:
+        <input
+        type='text'
+        name="user_answer"
+        placeholder="Guess here!"
+        required />
+	</label>
+    <input type='text' name='answer' value='{{answer}}' hidden />
+    <input type='text' name='question' value='{{question}}' hidden />
+    <br />
+    <input class='rainbow' id="submit" type="submit" value="Submit" />
+</form>
+</div>
+<a class='button' href='/'>Home</a>
+{% endblock %}

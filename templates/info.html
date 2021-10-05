@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block title %}Info - Dizzle{% endblock %} {% block content %}
+<h1>Info - Dizzle</h1>
+<div class='card'>
+	<p>Welcome to the information page for Dizzle! Everything you need to know to use Dizzle is here!</p>
+	<h2>Question Types</h2>
+	<ul>
+		<li>
+			<h3>Memory</h3>
+			<p>Example: "What Queen of England died in 1901?"<br/>The answer to this question is Queen Victoria. Unless otherwise
+					stated you need to list the full name for real people or places.</p>
+		</li>
+		<li>
+			<h3>Multi-choice</h3>
+			<p>Example: "What was the first opera performed at the Sydney Opera House? - War and Peace, Madame Butterfly or Porgy
+				and the Bess?"<br/>You will be given three options. To get the answer correct, you must type in the answer as it is given
+					to you in the question. So, no typos, no missing words - War & Peace would not be accepted, but War and Peace would
+					be -, but you can use uppercasem lowercase or a mixture.
+		</li>
+		<li>
+			<h3>True or False</h3>
+			<p>Example: "True or False: The Lion, the Witch and the Wardrobe is the first book in the Chronicles of Narnia."<br/>For
+					this question, you just need to enter True or False.</p>
+		</li>
+		<li>
+			<h3>Fill in the blank</h3>
+			<p>Example: "Fill in the blank: In the 1980s, Nina sang about 99 _____ balloons." This is simple. Just fill in the missing
+				word. The number of underscores does <strong><em>not</em></strong> tell you the length of the word.</p>
+        </li>
+    </ul>
+	<a class='rainbow' href='/question'>Get a Question</a>
+</div>
+<a class='button' href='/'>Home</a>
+{% endblock %}

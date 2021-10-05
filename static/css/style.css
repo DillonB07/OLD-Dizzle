@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 125%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.card {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.button {
+    /* margin: 10px 0; */
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.button:hover {
+    padding: 7px;
+    border: 1px solid blue;
+}
+
+input {
+    text-align: center;
+    font-size: 125%;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.rainbow {
+    border: 1px solid white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(315deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #e28903, #e404e4);
+    border-radius: 20px;
+}
+
+.rainbow:hover {
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Background */
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #e28903, #e404e4);
+  background-size: 400% 400%;
+  animation: gradient 17s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

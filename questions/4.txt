@@ -1,0 +1,2 @@
+In a men's singles Grand Slam tennis match, how many sets do you have to win to win the match? (Answer as a number)
+3

@@ -1,0 +1,2 @@
+A programming language has the icon of a snake. Name the language.
+Python

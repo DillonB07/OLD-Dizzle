@@ -1,0 +1,2 @@
+What markup language is used to create websites?
+HTML

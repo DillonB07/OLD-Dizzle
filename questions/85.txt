@@ -1,0 +1,2 @@
+True or False: An albatross can live for more than 50 years.
+True

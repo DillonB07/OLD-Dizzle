@@ -1,0 +1,2 @@
+What items are used to send messages in semaphore code?
+Flags

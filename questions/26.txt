@@ -1,0 +1,2 @@
+What is the common name for a tiny picture element?
+Pixel
