@@ -11,6 +11,10 @@ def index():
 def info():
     return render_template('info.html')
 
+@app.route('/suggest')
+def suggest():
+    return render_template('suggest.html')
+
 @app.route('/question', methods=['GET', 'POST'])
 def question():
     number, question, answer = generate_question()
