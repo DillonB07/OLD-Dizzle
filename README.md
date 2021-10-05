@@ -1,5 +1,6 @@
 # Dizzle
 [![Repl Talk Badge](https://replit-badge.vercel.app/api?id=146423&style=gradient)](https://replit.com/talk/share/Dizzle/146423)
+![Website](https://img.shields.io/website?down_color=darkred&down_message=Dizzle&label=Visit&up_color=lightgreen&up_message=Dizzle&url=https%3A%2F%2Fdizzle.dillonb07.repl.co)
 ## Introducing Dizzle!
 
 Dizzle is a website created with Flask that will give you a random general knowledge question.
